@@ -1,0 +1,411 @@
+
+html {
+  height: 100%;
+}
+html .test {
+  background-color: red;
+}
+body {
+  padding: 0;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  width: 780px;
+  height: 60px;
+  margin: 0 auto;
+}
+.title .line {
+  width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  float: left;
+}
+.title .black {
+  background-image: url(../images/public/line_black.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+  bottom: 0;
+  display: block;
+}
+
+h1, h3, ul, li, a, input, textarea {
+  font-family: 'Contrail One', cursive;
+}
+
+h2, h4 {
+  font-family: 'Voces', cursive;
+}
+
+.about h1, .service h1, .project h1, .team h1, .contact h1 {
+  width: 180px;
+  margin-top: 24px;
+  padding: 0;
+  float: left;
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+}
+.about h2, .service h2, .project h2, .team h2, .contact h2 {
+  font-size: 28px;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  line-height: 120%;
+  font-weight: 100;
+  font-style: italic;
+}
+.about .page_container, .service .page_container, .project .page_container, .team .page_container, .contact .page_container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+section {
+  overflow: hidden;
+}
+
+
+.hero {
+  background-color: #fafafa;
+}
+
+.hero .connect {
+  width: 102%;
+  height: 90%;
+  background-position: left top;
+  background-image: url(../images/hero/index.jpg);
+  background-color: #fafafa;
+  background-size: cover;
+}
+
+
+.hero .page_container {
+  padding-top: 30%;
+  width: auto;
+}
+
+.hero h1 {
+  color: white;
+  display: block;
+  width: 660px;
+  height: 84px;
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: 700;
+  background-color: rgba(255, 201, 11, 0.8);
+  position: relative;
+}
+
+.hero h1:before {
+  height: 84px;
+  background-color: rgba(255, 201, 11, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 9999px;
+}
+
+.hero h2 {
+  color: white;
+  display: block;
+  margin: 10px auto;
+  width: 780px;
+  height: 50px;
+  padding: 2px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 300;
+  background-color: rgba(11, 21, 11, 0.8);
+  position: relative;
+}
+
+.hero h2:after {
+  height: 54px;
+  background-color: rgba(11, 21, 11, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 9999px;
+}
+
+
+.about {
+  background-image: url(../images/public/grid.png);
+  background-color: #fafafa;
+}
+
+.about .page_container h2 {
+  color: black;
+  width: 100%;
+  max-width: 680px;
+  margin: 20px auto 0 auto;
+}
+
+.about .page_container h3 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.about .page_container .job {
+  height: 420px;
+  width: 620px;
+  margin: 0 20px 0 10px;
+  padding: 10px 0;
+  display: inline-block;
+}
+.about .page_container aside{
+  float: right;
+  margin-top: 50px;
+  width: 300px;
+  height: 420px;
+  display: inline-block;
+  background-image: url(../images/hero/aboutme.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.team::after{
+  background: url(../images/hero/page3.jpg);
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team .page_container h1, .team .page_container h2, .team .page_container h3, .team .page_container h4 {
+  color: black;
+}
+
+.team .page_container h3 {
+  display: inline-block;
+  margin: 10px auto;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.team .page_container .fontecher {
+  max-width: 490px;
+  height: 256px;
+  padding: 0 10px;
+  margin: 10px;
+  float: left;
+}
+
+.team .page_container .fontecher .hello {
+  height: 400px;
+  width: 350px;
+  margin-right: 10px;
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  background-image: url(../images/hero/follow1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.team .page_container .fontecher .hello:hover {
+  background-image: url(../images/hero/follow2.jpg);
+}
+
+.team .page_container .fontecher .hello #gmail {
+  background-image: url(../images/team/gmail.png);
+  display: none;
+  position: absolute;
+  bottom: -3px;
+  left: -4px;
+}
+
+.team .page_container .fontecher .hello #gmail:hover {
+  background-image: url(../images/team/gmail_go.png);
+}
+
+.team .page_container .fontecher .hello #linkedin {
+  background-image: url(../images/team/linkedin.png);
+  display: none;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+}
+
+.team .page_container .fontecher .hello #linkedin:hover {
+  background-image: url(../images/team/linkedin_go.png);
+}
+
+.team .page_container .fontecher .hello #dribble {
+  background-image: url(../images/team/dribble.png);
+  display: none;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.team .page_container .fontecher .hello #dribble:hover {
+  background-image: url(../images/team/dribble_go.png);
+}
+
+.team .page_container .fontecher .hello #github {
+  background-image: url(../images/team/github.png);
+  display: none;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+.team .page_container .fontecher .hello #github:hover {
+  background-image: url(../images/team/github_go.png);
+}
+
+.team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
+  display: block;
+  height: 75px;
+  width: 75px;
+}
+
+
+.contact .page_container .contact_input {
+  width: 84%;
+  max-width: 786px;
+  height: 3810px;
+  margin: 0 auto 0 90px;
+}
+
+.contact .page_container .contact_input .input_radio{
+  height: 120px;
+  width: 30%;
+  max-width: 360px;
+  font-size: 20px;
+  font-family: serif;
+  font-style: italic;
+  float: left;
+}
+
+.contact .page_container .contact_input .input_checkbox{
+  height: 120px;
+  width: 50%;
+  max-width: 360px;
+  font-size: 20px;
+  font-family: times;
+  font-style: italic;
+}
+
+.contact .page_container .contact_input .input_email{
+  width: 70%;
+  max-width: 360px;
+  margin-right:20px;
+  float: right;
+}
+
+.contact .page_container .contact_input .input_select{
+  height: 30px;
+  width: 100%;
+  max-width: 360px;
+  font-style: italic;
+  font-size: 20px;
+  font-family: times;
+  float: left;
+}
+
+.contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
+  padding: 4px 8px;
+  float: left;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.contact .page_container .contact_input .submit {
+  font-size: 24px;
+  padding: 6px 16px;
+  display: block;
+  width: 72px;
+  text-align: center;
+  margin: 5px auto 20px auto;
+  background-color: #ffd10b;
+  font-weight: 300;
+  color: black;
+  border: none;
+  clear: both;
+}
+
+.contact h2 {
+  color: black;
+}
+
+.contact h3 {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 40px;
+  font-weight: 300;
+  clear: both;
+}
+
+.contact h4 {
+  font-size: 16px;
+  padding: 16px 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(7, 7, 7, 0.1);
+}
+
+.contact span {
+  color: #ffd10b;
+  position: relative;
+}
+
+.contact span div {
+  display: none;
+}
+
+.contact span:hover > div {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  display: block;
+}
