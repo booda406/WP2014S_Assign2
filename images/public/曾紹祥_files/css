@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Contrail One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Contrail One'), local('ContrailOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/contrailone/v4/b41KxjgiyqX-hkggANDU6KRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Voces';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Voces'), local('Voces-Regular'), url(http://themes.googleusercontent.com/static/fonts/voces/v2/yqkaiTV6SFsIacovJI_YPKCWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
